@@ -14,16 +14,19 @@ public class PlayerMovement : MonoBehaviour
     public float groundDistance = 0.4f;
     public LayerMask groundMask;
 
+    public float detectionRadius = 5f; // Radius to detect weapons
+
     Vector3 velocity;
 
     bool isGrounded;
     bool isMoving;
 
     private Vector3 lastPosition = new Vector3 (0f,0f,0f);
+
     // Start is called before the first frame update
     void Start()
     {
-            controller = GetComponent<CharacterController>();
+        controller = GetComponent<CharacterController>();
     }
 
     // Update is called once per frame
@@ -31,9 +34,9 @@ public class PlayerMovement : MonoBehaviour
     {
         isGrounded = Physics.CheckSphere(groundCheck.position, groundDistance, groundMask);
         print(isGrounded);
-        if(isGrounded && velocity.y <0) 
+        if (isGrounded && velocity.y < 0) 
         {
-            print("Hellof");
+            print("Hello");
             velocity.y = -2f;
         }
 
@@ -44,13 +47,13 @@ public class PlayerMovement : MonoBehaviour
 
         controller.Move(move * speed * Time.deltaTime);
 
-       if (Input.GetButtonDown("Jump") && isGrounded) 
-       {
-          velocity.y = Mathf.Sqrt(jumpHeight * -2f * gravity);
-       }
+        if (Input.GetButtonDown("Jump") && isGrounded) 
+        {
+            velocity.y = Mathf.Sqrt(jumpHeight * -2f * gravity);
+        }
 
-       velocity.y += gravity * Time.deltaTime;
-       controller.Move(velocity * Time.deltaTime);
+        velocity.y += gravity * Time.deltaTime;
+        controller.Move(velocity * Time.deltaTime);
 
         if (lastPosition != gameObject.transform.position && isGrounded == true) 
         {
@@ -64,8 +67,6 @@ public class PlayerMovement : MonoBehaviour
          
         lastPosition = gameObject.transform.position;
 
+       
     }
 }
-
-
-
