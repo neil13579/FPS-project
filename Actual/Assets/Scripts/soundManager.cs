@@ -16,6 +16,11 @@ public class soundManager : MonoBehaviour
      public AudioSource reloadSound1911;
     public AudioSource reloadSoundM4A1;
 
+    public AudioSource throwablesChannel;
+    public AudioClip grenadeSound;
+    public AudioClip stunGrenadeSound;
+    
+
     private void Awake()
     {
         if(Instance != null && Instance != this)

@@ -60,7 +60,6 @@ public class InteractionManager : MonoBehaviour
                 if (Input.GetKeyDown(KeyCode.E)) 
                 {
                     WeaponManager.Instance.EquipThrowable(hoveredThrowable);
-                    Destroy(objectHitByRaycast.gameObject);
                 }
                 
             } 

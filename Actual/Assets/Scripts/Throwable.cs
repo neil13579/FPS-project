@@ -15,7 +15,12 @@ public class Throwable : MonoBehaviour
 
     public enum ThrowableType 
     {
-        Grenade
+        
+        None,
+        Grenade,
+        Smoke_Grenade,
+        Stun_Grenade
+
     } 
 
     public ThrowableType throwableType;
@@ -52,6 +57,57 @@ public class Throwable : MonoBehaviour
             case ThrowableType.Grenade:
                 GrenadeEffect();
                 break;  
+            case ThrowableType.Smoke_Grenade:
+                SmokeGrenadeEffect();
+                break;  
+            case ThrowableType.Stun_Grenade:
+                StunGrenadeEffect();
+                break;         
+        }
+    }
+
+    
+    private void StunGrenadeEffect() 
+    {
+        GameObject stunEffect = GlobalReferences.Instance.stunGrenadeEffect;
+        Instantiate(stunEffect, transform.position, transform.rotation);
+
+        soundManager.Instance.throwablesChannel.PlayOneShot(soundManager.Instance.stunGrenadeSound);
+
+        Collider[] colliders = Physics.OverlapSphere(transform.position, damageradis); 
+        foreach(Collider objectInRange in colliders) 
+        {
+            Rigidbody rb = objectInRange.GetComponent<Rigidbody>();
+
+            if(rb != null) 
+            {
+               // apply stun
+
+            }
+
+
+        }
+    }
+    
+    private void SmokeGrenadeEffect() 
+    {
+        GameObject smokeEffect = GlobalReferences.Instance.smokeGrenadeEffect;
+        Instantiate(smokeEffect, transform.position, transform.rotation);
+
+        soundManager.Instance.throwablesChannel.PlayOneShot(soundManager.Instance.grenadeSound);
+
+        Collider[] colliders = Physics.OverlapSphere(transform.position, damageradis); 
+        foreach(Collider objectInRange in colliders) 
+        {
+            Rigidbody rb = objectInRange.GetComponent<Rigidbody>();
+
+            if(rb != null) 
+            {
+               // apply blindness
+
+            }
+
+
         }
     }
 
@@ -59,6 +115,8 @@ public class Throwable : MonoBehaviour
     {
         GameObject explosionEffect = GlobalReferences.Instance.grenadeExplosionEffect;
         Instantiate(explosionEffect, transform.position, transform.rotation);
+
+        soundManager.Instance.throwablesChannel.PlayOneShot(soundManager.Instance.grenadeSound);
 
         Collider[] colliders = Physics.OverlapSphere(transform.position, damageradis); 
         foreach(Collider objectInRange in colliders) 

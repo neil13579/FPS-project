@@ -24,6 +24,7 @@ public class HUDManager : MonoBehaviour
     public Image TacticalUI;
     public TextMeshProUGUI tactialAmountUI;
     public Sprite emptySlot;
+    public Sprite greySlot;
 
     public GameObject crosshair;
 
@@ -40,40 +41,47 @@ public class HUDManager : MonoBehaviour
         }
     }
 
-    private void Update() 
+   private void Update() 
     {
         Weapon activeWeapon = WeaponManager.Instance.activeSlot.GetComponentInChildren<Weapon>();
         Weapon unActiveWeapon = GetUnActiveSlot().GetComponentInChildren<Weapon>();
 
         if (activeWeapon) 
         {
-            magazineAmmoUI.text = $"{activeWeapon.bulletsLeft / activeWeapon.bulletsPerBurst}";
-            totalAmmoUI.text = $"{activeWeapon.magazineSize / activeWeapon.bulletsPerBurst}";
+         magazineAmmoUI.text = $"{activeWeapon.bulletsLeft / activeWeapon.bulletsPerBurst}";
+         totalAmmoUI.text = $"{activeWeapon.magazineSize / activeWeapon.bulletsPerBurst}";
 
-            Weapon.WeaponModel model = activeWeapon.thisWeaponModel;
-            ammoTypeUI.sprite = GetAmmoSprite(model);
+         Weapon.WeaponModel model = activeWeapon.thisWeaponModel;
+         ammoTypeUI.sprite = GetAmmoSprite(model);
 
-            activeWeaponUI.sprite = GetWeaponSprite(model);
+         activeWeaponUI.sprite = GetWeaponSprite(model);
 
-            if (unActiveWeapon) 
-            {
-                unActiveWeaponUI.sprite = GetWeaponSprite(unActiveWeapon.thisWeaponModel);
-            }
-            else 
-            {
-                magazineAmmoUI.text = "";
-                totalAmmoUI.text =  "";
+         if (unActiveWeapon) 
+          {
+            unActiveWeaponUI.sprite = GetWeaponSprite(unActiveWeapon.thisWeaponModel);
+          }
+        }       
+        else 
+        {
+         magazineAmmoUI.text = "";
+         totalAmmoUI.text =  "";
 
-                ammoTypeUI.sprite = emptySlot;
+         ammoTypeUI.sprite = emptySlot;
 
-                activeWeaponUI.sprite = emptySlot; 
-                unActiveWeaponUI.sprite = emptySlot;
+         activeWeaponUI.sprite = emptySlot; 
+         unActiveWeaponUI.sprite = emptySlot;
+        }
 
+        if (WeaponManager.Instance.lethalsCount <= 0) 
+        {
+            lethalUI.sprite = greySlot;
+        }
 
-            }
+        if (WeaponManager.Instance.tacticalsCount <= 0) 
+        {
+            TacticalUI.sprite = greySlot;
         }
     }
-
     private GameObject GetUnActiveSlot() 
     {
         foreach(GameObject WeaponSlot in WeaponManager.Instance.weaponSlots) 
@@ -119,14 +127,29 @@ public class HUDManager : MonoBehaviour
         }
     }
 
-    public void UpdateThrowables(Throwable.ThrowableType throwable) 
+    public void UpdateThrowables() 
     {
-        switch(throwable) 
+
+        lethalAmountUI.text = $"{WeaponManager.Instance.lethalsCount}";
+        tactialAmountUI.text = $"{WeaponManager.Instance.tacticalsCount}";
+        
+        switch(WeaponManager.Instance.equippedLethalType) 
         {
+
             case Throwable.ThrowableType.Grenade:
-                 lethalAmountUI.text = $"{WeaponManager.Instance.grenades}";
-                 lethalUI.sprite = Resources.Load<GameObject>("Grenade").GetComponent<SpriteRenderer>().sprite;
-                 break;
+                lethalUI.sprite = Resources.Load<GameObject>("Grenade").GetComponent<SpriteRenderer>().sprite;
+                break;
+        }
+
+        switch(WeaponManager.Instance.equippedTacticalType) 
+        {
+
+            case Throwable.ThrowableType.Smoke_Grenade:
+                TacticalUI.sprite = Resources.Load<GameObject>("Smoke_Grenade").GetComponent<SpriteRenderer>().sprite;
+                break;
+            case Throwable.ThrowableType.Stun_Grenade:
+                TacticalUI.sprite = Resources.Load<GameObject>("Stun_Grenade").GetComponent<SpriteRenderer>().sprite;
+                break;    
         }
     }
 }

@@ -1,0 +1,2115 @@
+Unity Editor version:    2021.3.34f1 (25266724e7bd)
+Branch:                  2021.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 14.5 (Build 23F79)
+Darwin version:          23.5.0
+Architecture:            arm64
+Running under Rosetta:   NO
+Available memory:        8192 MB
+Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/neilbestin/Documents/Actual
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+64004
+Successfully changed project path to: /Users/neilbestin/Documents/Actual
+/Users/neilbestin/Documents/Actual
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [8445316096] Host "[IP] 192.168.29.111 [Port] 0 [Flags] 2 [Guid] 3860583365 [EditorId] 3860583365 [Version] 1048832 [Id] OSXEditor(0,MacBooks-MacBook-Air.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [8445316096] Host "[IP] 192.168.29.111 [Port] 0 [Flags] 2 [Guid] 3860583365 [EditorId] 3860583365 [Version] 1048832 [Id] OSXEditor(0,MacBooks-MacBook-Air.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with {0} workers.
+Refreshing native plugins compatible for Editor in 105.89 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.34f1 (25266724e7bd)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/neilbestin/Documents/Actual/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+ preferred device: Apple M1 (high power)
+Metal devices available: 1
+0: Apple M1 (high power)
+Using device Apple M1 (high power)
+Initializing Metal device caps: Apple M1
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Initialize mono
+Mono path[0] = '/Applications/Unity/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56900
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.000856 seconds.
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 97.31 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.488 seconds
+Domain Reload Profiling:
+	ReloadAssembly (488ms)
+		BeginReloadAssembly (84ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (348ms)
+			LoadAssemblies (83ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (78ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (19ms)
+			SetupLoadedEditorAssemblies (223ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (97ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (96ms)
+				ProcessInitializeOnLoadMethodAttributes (26ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.007338 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 100.24 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  0.831 seconds
+Domain Reload Profiling:
+	ReloadAssembly (832ms)
+		BeginReloadAssembly (61ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (17ms)
+		EndReloadAssembly (710ms)
+			LoadAssemblies (63ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (189ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (391ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (1ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (100ms)
+				BeforeProcessingInitializeOnLoad (66ms)
+				ProcessInitializeOnLoadAttributes (179ms)
+				ProcessInitializeOnLoadMethodAttributes (43ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (2ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Launching external process: /Applications/Unity/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.64 seconds
+Refreshing native plugins compatible for Editor in 1.06 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5299 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 79 unused Assets / (23.0 MB). Loaded Objects now: 5719.
+Memory consumption went from 257.1 MB to 234.1 MB.
+Total: 10.383042 ms (FindLiveObjects: 0.288625 ms CreateObjectMapping: 0.137875 ms MarkObjects: 3.285833 ms  DeleteObjects: 6.670000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:CustomObjectIndexerAttribute: f67f22312cbe972f2da930a377ed3d15 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 175496.694436 seconds.
+  path: Assets/RPG_FPS_game_assets_industrial/Oil_tanks/Oil_tank_v1/Source/Oil_tank_v1.mat
+  artifactKey: Guid(8573c79e2e3e6c14c8dc545c942c8a60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/RPG_FPS_game_assets_industrial/Oil_tanks/Oil_tank_v1/Source/Oil_tank_v1.mat using Guid(8573c79e2e3e6c14c8dc545c942c8a60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69750cc4a017ebe11a93d9f0fef0dfad') in 0.246622 seconds 
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/SniperRifle/Demo/Floor.mat
+  artifactKey: Guid(389a772251d6f8a47b2f4df624ba5eb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/SniperRifle/Demo/Floor.mat using Guid(389a772251d6f8a47b2f4df624ba5eb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6633305d10ea0fc1022a36f3b13e2e4e') in 0.013292 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/UnityTechnologies/EffectExamples/FireExplosionEffects/Materials/EmbersParticle.mat
+  artifactKey: Guid(776677ab3818fb249adaca05f4e04545) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/UnityTechnologies/EffectExamples/FireExplosionEffects/Materials/EmbersParticle.mat using Guid(776677ab3818fb249adaca05f4e04545) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '580d890e00bbe46de1dcd385aa157a3f') in 0.007137 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000090 seconds.
+  path: Assets/RPG_FPS_game_assets_industrial/Other_props/Electric_box/Electric_box_v2/Source/Electric_box_v2.mat
+  artifactKey: Guid(9c5619fe582a6fd4a9e176b10cfb600d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/RPG_FPS_game_assets_industrial/Other_props/Electric_box/Electric_box_v2/Source/Electric_box_v2.mat using Guid(9c5619fe582a6fd4a9e176b10cfb600d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b12198070fe9745aadb5fb8f3d859d7') in 0.009975 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/UnityTechnologies/EffectExamples/WeaponEffects/Models/Materials/No Name.mat
+  artifactKey: Guid(547f2e9db866947dabf6f55d8673905d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/UnityTechnologies/EffectExamples/WeaponEffects/Models/Materials/No Name.mat using Guid(547f2e9db866947dabf6f55d8673905d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28cb94e1f4f88d8ee310f7f972280b0f') in 0.005773 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/FPS Shooting Pack/Materials/fps_prop_mt_01.mat
+  artifactKey: Guid(da94d610c55c80746a838a10147c07e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/FPS Shooting Pack/Materials/fps_prop_mt_01.mat using Guid(da94d610c55c80746a838a10147c07e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5efea3541821530f31b07e7005fc77da') in 0.019156 seconds 
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/RPG_FPS_game_assets_industrial/Buildings/Industrial/Hangars/Hangar_v5/Source/Hangar_v5.mat
+  artifactKey: Guid(dbcdf9e202a1b1348a6e2c86596dcc3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/RPG_FPS_game_assets_industrial/Buildings/Industrial/Hangars/Hangar_v5/Source/Hangar_v5.mat using Guid(dbcdf9e202a1b1348a6e2c86596dcc3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59d96ecdb51f33009519411840b8fa9d') in 0.008156 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/JMO Assets/WarFX/Desktop/Materials/MuzzleFlashes/WFX_M_MF FrontRear RIFLE3.mat
+  artifactKey: Guid(28045a2b25553844db8bb7a4668049f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/JMO Assets/WarFX/Desktop/Materials/MuzzleFlashes/WFX_M_MF FrontRear RIFLE3.mat using Guid(28045a2b25553844db8bb7a4668049f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4aa00398d4f757b157017a350334b36d') in 0.008000 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000131 seconds.
+  path: Assets/FPS Shooting Pack/Materials/rifle_gun_mt.mat
+  artifactKey: Guid(589ebc6b34c153445a79606718bc7b5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/FPS Shooting Pack/Materials/rifle_gun_mt.mat using Guid(589ebc6b34c153445a79606718bc7b5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4746826b4030c885d06d7bf70cd6b691') in 0.027230 seconds 
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/SniperRifle/Materials/1024/Rifle_Mobile.mat
+  artifactKey: Guid(09fc965bbd90e274dac8dba81b0ee2a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/SniperRifle/Materials/1024/Rifle_Mobile.mat using Guid(09fc965bbd90e274dac8dba81b0ee2a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4befa3fb211b93931df8858da2ba70f') in 0.009772 seconds 
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/UnityTechnologies/EffectExamples/FireExplosionEffects/Materials/PlasmaFireParticle.mat
+  artifactKey: Guid(b5387d3c2ba98fc44a0f5744f94ce48c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/UnityTechnologies/EffectExamples/FireExplosionEffects/Materials/PlasmaFireParticle.mat using Guid(b5387d3c2ba98fc44a0f5744f94ce48c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a62ba44fbc1e01d7364bd99e287ac35') in 0.007885 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/RPG_FPS_game_assets_industrial/Buildings/Industrial/Hangars/Hangar_v2/Source/Hangar_v2.mat
+  artifactKey: Guid(8d81f9b16a9135446b5451caa37570ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/RPG_FPS_game_assets_industrial/Buildings/Industrial/Hangars/Hangar_v2/Source/Hangar_v2.mat using Guid(8d81f9b16a9135446b5451caa37570ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31feaed4c341b0f3734c3bf5d94bfdad') in 0.006850 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/UnityTechnologies/EffectExamples/FireExplosionEffects/Materials/FlameParticle.mat
+  artifactKey: Guid(bd8c234372a08af408b82538314378fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/UnityTechnologies/EffectExamples/FireExplosionEffects/Materials/FlameParticle.mat using Guid(bd8c234372a08af408b82538314378fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3796ee94df19871b3954e5fee016146b') in 0.010542 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000092 seconds.
+  path: Assets/UnityTechnologies/EffectExamples/WaterEffects/Materials/ImpactSplashParticle.mat
+  artifactKey: Guid(90c3f5183cf0f9d488b3821973c75c93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/UnityTechnologies/EffectExamples/WaterEffects/Materials/ImpactSplashParticle.mat using Guid(90c3f5183cf0f9d488b3821973c75c93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b33259b27a89dbc2768ab54d46e9c3fd') in 0.009330 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Assets/RPG_FPS_game_assets_industrial/Other_props/Conditioners/Conditioner_v1/Source/Conditioner_v1.mat
+  artifactKey: Guid(5549011eb0be2f44a8bd15f42714f6e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/RPG_FPS_game_assets_industrial/Other_props/Conditioners/Conditioner_v1/Source/Conditioner_v1.mat using Guid(5549011eb0be2f44a8bd15f42714f6e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50a10e36b20128d420b30031b0e9295a') in 0.006436 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/UnityTechnologies/EffectExamples/FireExplosionEffects/Materials/ShockWaveParticle.mat
+  artifactKey: Guid(f88239865da4c79468e051ceb78c0317) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/UnityTechnologies/EffectExamples/FireExplosionEffects/Materials/ShockWaveParticle.mat using Guid(f88239865da4c79468e051ceb78c0317) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c395b0ea6610b16ea025f11c5a1df177') in 0.005325 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/SniperRifle/Materials/Scope/2048/Scope_2048.mat
+  artifactKey: Guid(dc09802051902e945a3a09ec8dc2e09e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/SniperRifle/Materials/Scope/2048/Scope_2048.mat using Guid(dc09802051902e945a3a09ec8dc2e09e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a372fbcb87bf3835828a7afae213aebc') in 0.047811 seconds 
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/JMO Assets/WarFX/Desktop/Materials/Impacts/WFX_M_Impact Smoke.mat
+  artifactKey: Guid(450dd918846b28b408e044f16f827449) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/JMO Assets/WarFX/Desktop/Materials/Impacts/WFX_M_Impact Smoke.mat using Guid(450dd918846b28b408e044f16f827449) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c29a1f4272902d3d745a1ab3110fc772') in 0.006532 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Roboto-Bold SDF - Drop Shadow.mat
+  artifactKey: Guid(b246c4190f4e46ec9352fe15a7b09ce0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Roboto-Bold SDF - Drop Shadow.mat using Guid(b246c4190f4e46ec9352fe15a7b09ce0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48b47856123433ac9a38d30011c86a3a') in 0.117920 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/FPS Shooting Pack/Materials/glass_mt.mat
+  artifactKey: Guid(9d3355566891468488fd05de4cd12a12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/FPS Shooting Pack/Materials/glass_mt.mat using Guid(9d3355566891468488fd05de4cd12a12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36c05e6016da591f191fae4bb46e7e3e') in 0.011018 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/SniperRifle/Materials/1024/Rifle_Black_Mobile.mat
+  artifactKey: Guid(fd2f917411a4b104bad9b3c6beeefd50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/SniperRifle/Materials/1024/Rifle_Black_Mobile.mat using Guid(fd2f917411a4b104bad9b3c6beeefd50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec2048b338d8c8bf0a2e8a55283ac8c4') in 0.029706 seconds 
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/RPG_FPS_game_assets_industrial/Containers/Cargo_container_v1/Source/Cargo_container_v2.mat
+  artifactKey: Guid(5735afa0ccbd3dc408fbf0a19e478a4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/RPG_FPS_game_assets_industrial/Containers/Cargo_container_v1/Source/Cargo_container_v2.mat using Guid(5735afa0ccbd3dc408fbf0a19e478a4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13b331a0ccec31fe09621faa921cb292') in 0.008466 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/JMO Assets/WarFX/Mobile/Materials/MuzzleFlashes/WFXM_M_MF FrontRear RIFLE3.mat
+  artifactKey: Guid(cc458c57280d0bf48a81573e7dc674aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/JMO Assets/WarFX/Mobile/Materials/MuzzleFlashes/WFXM_M_MF FrontRear RIFLE3.mat using Guid(cc458c57280d0bf48a81573e7dc674aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8dde0b03535bab09995d9ff5db21446') in 0.007900 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/FPS Shooting Pack/Materials/fps_mt03.mat
+  artifactKey: Guid(bf731e41bd6d3ac44aac41dfdadb30c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/FPS Shooting Pack/Materials/fps_mt03.mat using Guid(bf731e41bd6d3ac44aac41dfdadb30c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3a3d6842ca4e90bc5af2d4cd2b5975c') in 0.017689 seconds 
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/RPG_FPS_game_assets_industrial/Containers/Cargo_container_v1/Source/Cargo_container_v3.mat
+  artifactKey: Guid(bb0d1d0eb18293f4a8d2ded5e4ee4e46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/RPG_FPS_game_assets_industrial/Containers/Cargo_container_v1/Source/Cargo_container_v3.mat using Guid(bb0d1d0eb18293f4a8d2ded5e4ee4e46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '011ca315d314109d8d17b2dcd74f6f14') in 0.011438 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/UnityTechnologies/EffectExamples/Blood/Materials/BloodSplatParticle.mat
+  artifactKey: Guid(3ea2e59d181ffce4e97d5d1d07a22c05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/UnityTechnologies/EffectExamples/Blood/Materials/BloodSplatParticle.mat using Guid(3ea2e59d181ffce4e97d5d1d07a22c05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84f91437e4a9f3c17913e8fc3b048333') in 0.032829 seconds 
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Materials/Ground - Surface Shader Scene.mat
+  artifactKey: Guid(aadd5a709a48466c887296bb5b1b8110) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/TextMesh Pro/Examples & Extras/Materials/Ground - Surface Shader Scene.mat using Guid(aadd5a709a48466c887296bb5b1b8110) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e08bb5379716432a074f98f2861190b4') in 0.006842 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/JMO Assets/WarFX/Mobile/Materials/MuzzleFlashes/WFXM_M_MF Side RIFLE1.mat
+  artifactKey: Guid(5670cff32df718c4e8424e5e4fb3cf46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/JMO Assets/WarFX/Mobile/Materials/MuzzleFlashes/WFXM_M_MF Side RIFLE1.mat using Guid(5670cff32df718c4e8424e5e4fb3cf46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8d5ac51ed9f3b0e3e529f0c4011f8b6') in 0.006059 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/UnityTechnologies/EffectExamples/FireExplosionEffects/Materials/DebrisParticle.mat
+  artifactKey: Guid(72815344e9e9c7446895e130936932d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/UnityTechnologies/EffectExamples/FireExplosionEffects/Materials/DebrisParticle.mat using Guid(72815344e9e9c7446895e130936932d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6d9db92f182dc0f1da1341fc015d64a') in 0.006476 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000090 seconds.
+  path: Assets/UnityTechnologies/EffectExamples/Shared/Materials/MetalSurface.mat
+  artifactKey: Guid(4f477167fc0be5e4dab9a125b37c42ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/UnityTechnologies/EffectExamples/Shared/Materials/MetalSurface.mat using Guid(4f477167fc0be5e4dab9a125b37c42ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b56837989d1b5aafdf4683318839af70') in 0.005347 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/UnityTechnologies/EffectExamples/FireExplosionEffects/Materials/IgnitionFlameParticle.mat
+  artifactKey: Guid(f53f1a24bb4ef8f4d879ea7b3a5197e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/UnityTechnologies/EffectExamples/FireExplosionEffects/Materials/IgnitionFlameParticle.mat using Guid(f53f1a24bb4ef8f4d879ea7b3a5197e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba9674d6ae00e484e622639a83d2a04f') in 0.006214 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/RPG_FPS_game_assets_industrial/Dumpsters/Dumpsters_v1/Source/Dumpsters_v1.mat
+  artifactKey: Guid(3f513b9c59aff4f409bf303083c4a25e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/RPG_FPS_game_assets_industrial/Dumpsters/Dumpsters_v1/Source/Dumpsters_v1.mat using Guid(3f513b9c59aff4f409bf303083c4a25e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca170c6a20b1e3dc842059a4ec43c916') in 0.007634 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Materials/Ground - Logo Scene.mat
+  artifactKey: Guid(c719e38f25a9480abd2480ab621a2949) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/TextMesh Pro/Examples & Extras/Materials/Ground - Logo Scene.mat using Guid(c719e38f25a9480abd2480ab621a2949) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ad9bb147366235e641946974bed5831') in 0.006598 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/UnityTechnologies/EffectExamples/FireExplosionEffects/Materials/LightningParticle.mat
+  artifactKey: Guid(123ac6dc79004e54b8b352a7e64acdca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/UnityTechnologies/EffectExamples/FireExplosionEffects/Materials/LightningParticle.mat using Guid(123ac6dc79004e54b8b352a7e64acdca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7d43e5716e55f4c06d41468a2e79b8c') in 0.005742 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/RPG_FPS_game_assets_industrial/Barrels/Barrel_v3/Source/Barrel_v3.mat
+  artifactKey: Guid(f15201246572bdb49bcb3594bf3000f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/RPG_FPS_game_assets_industrial/Barrels/Barrel_v3/Source/Barrel_v3.mat using Guid(f15201246572bdb49bcb3594bf3000f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da16025a1568666f74f2ebd0aa62f9bb') in 0.007499 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/SniperRifle/Materials/4096/Rifle_4096.mat
+  artifactKey: Guid(3cefc0449e7a6df4ab71307426608897) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/SniperRifle/Materials/4096/Rifle_4096.mat using Guid(3cefc0449e7a6df4ab71307426608897) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34cb564f503008cbc450d7d32dc6f9b6') in 0.076939 seconds 
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000102 seconds.
+  path: Assets/UnityTechnologies/EffectExamples/WeaponEffects/Textures/BloodSplat2.mat
+  artifactKey: Guid(fb0f4297b291a034bb4f9a9eada50640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/UnityTechnologies/EffectExamples/WeaponEffects/Textures/BloodSplat2.mat using Guid(fb0f4297b291a034bb4f9a9eada50640) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a2ee42c230f92dc64738db259d7b4bb') in 0.007372 seconds 
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/UnityTechnologies/EffectExamples/WeaponEffects/Textures/BloodMist.mat
+  artifactKey: Guid(22bd383795fb6f34b93b51a4caa75781) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/UnityTechnologies/EffectExamples/WeaponEffects/Textures/BloodMist.mat using Guid(22bd383795fb6f34b93b51a4caa75781) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c80973e6f544205fa40a8396f9d0afce') in 0.008010 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/UnityTechnologies/EffectExamples/Blood/Materials/BloodPoolParticle.mat
+  artifactKey: Guid(95be4df36eca6eb4b821dcab4acd4a1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/UnityTechnologies/EffectExamples/Blood/Materials/BloodPoolParticle.mat using Guid(95be4df36eca6eb4b821dcab4acd4a1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '182a9f025d0544d9412c341f28295dd9') in 0.007587 seconds 
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/FPS Shooting Pack/Materials/light mt.mat
+  artifactKey: Guid(987c892f5a84f344e958b4b9d4391184) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/FPS Shooting Pack/Materials/light mt.mat using Guid(987c892f5a84f344e958b4b9d4391184) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f08264e5ac97de5fac6e5d061e29f1c') in 0.008474 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/RPG_FPS_game_assets_industrial/Barrels/Barrel_v1/Source/Barrel_v1.mat
+  artifactKey: Guid(db7eb35339cc6e249a3b76684d621373) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/RPG_FPS_game_assets_industrial/Barrels/Barrel_v1/Source/Barrel_v1.mat using Guid(db7eb35339cc6e249a3b76684d621373) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04de249b7133fd4a59aa661bdaad8e7f') in 0.006781 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat
+  artifactKey: Guid(79459efec17a4d00a321bdcc27bbc385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat using Guid(79459efec17a4d00a321bdcc27bbc385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '582b27df0fbb94be8deb48f03660c85e') in 0.101073 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/UnityTechnologies/EffectExamples/WeaponEffects/Materials/RocketTrailParticle.mat
+  artifactKey: Guid(87220c434b13e684f84b32a5a04cf4be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/UnityTechnologies/EffectExamples/WeaponEffects/Materials/RocketTrailParticle.mat using Guid(87220c434b13e684f84b32a5a04cf4be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '932e4240a3d5220f26db96a4bcd620a4') in 0.012794 seconds 
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/JMO Assets/WarFX/Desktop/Materials/MuzzleFlashes/WFX_M_MF FrontRear RIFLE1.mat
+  artifactKey: Guid(f75cfa7d313f4ca4a9a0367922a04e8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/JMO Assets/WarFX/Desktop/Materials/MuzzleFlashes/WFX_M_MF FrontRear RIFLE1.mat using Guid(f75cfa7d313f4ca4a9a0367922a04e8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b24773f6c5ed6bded0a74a203737c91') in 0.006781 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/RPG_FPS_game_assets_industrial/Buildings/Industrial/Hangars/Hangar_v6/Source/Hangar_v6.mat
+  artifactKey: Guid(e08506550782c3645bc748132947168c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/RPG_FPS_game_assets_industrial/Buildings/Industrial/Hangars/Hangar_v6/Source/Hangar_v6.mat using Guid(e08506550782c3645bc748132947168c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e73a22addfa9219954010babec5cc4ff') in 0.008277 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/SniperRifle/Materials/Scope/512/Scope_Mobile.mat
+  artifactKey: Guid(7cd91214dc960ef4881082ee6c728b5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/SniperRifle/Materials/Scope/512/Scope_Mobile.mat using Guid(7cd91214dc960ef4881082ee6c728b5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd81bacb197f108304f4a0766aebe0569') in 0.008131 seconds 
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Materials/random.mat
+  artifactKey: Guid(3c22be59adbde45b4a1f72bf60b811c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Materials/random.mat using Guid(3c22be59adbde45b4a1f72bf60b811c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdb18ea14b21150336734d3e44d0bd7a') in 0.007407 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/UnityTechnologies/EffectExamples/Blood/Materials/BloodStreamParticle.mat
+  artifactKey: Guid(fb0a006be807eac48a87ffa79b3330a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/UnityTechnologies/EffectExamples/Blood/Materials/BloodStreamParticle.mat using Guid(fb0a006be807eac48a87ffa79b3330a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '909284a90d7012c04e08977c6419d2ef') in 0.007163 seconds 
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat
+  artifactKey: Guid(e73a58f6e2794ae7b1b7e50b7fb811b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat using Guid(e73a58f6e2794ae7b1b7e50b7fb811b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e86a572a1b952dd8aa7c015ab736e4e7') in 0.019631 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/RPG_FPS_game_assets_industrial/Containers/Cargo_container_v1/Source/Cargo_container_v1.mat
+  artifactKey: Guid(725065c3e256d624785aad798a8d0762) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/RPG_FPS_game_assets_industrial/Containers/Cargo_container_v1/Source/Cargo_container_v1.mat using Guid(725065c3e256d624785aad798a8d0762) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fc8b9ac5aa7d0f2ee0906c6302cee23') in 0.008092 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/QuickOutline/Resources/Materials/OutlineFill.mat
+  artifactKey: Guid(311313efa011949e98b6761d652ad13c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/QuickOutline/Resources/Materials/OutlineFill.mat using Guid(311313efa011949e98b6761d652ad13c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd673256d59dc509f7c3703e4757f8a0a') in 0.026012 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000158 seconds.
+  path: Assets/SniperRifle/Materials/2048/Rifle_Black_2048.mat
+  artifactKey: Guid(537ab1978eb6e6f4981ac085d6c7fdb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/SniperRifle/Materials/2048/Rifle_Black_2048.mat using Guid(537ab1978eb6e6f4981ac085d6c7fdb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0826790a7c1df299c6ebe0f917a6a994') in 0.017482 seconds 
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/UnityTechnologies/EffectExamples/Misc Effects/Materials/SandSwirlsParticle.mat
+  artifactKey: Guid(795ab1f41a8fd4142859110cee203fd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/UnityTechnologies/EffectExamples/Misc Effects/Materials/SandSwirlsParticle.mat using Guid(795ab1f41a8fd4142859110cee203fd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f0ea663da8c04e8a2f07a79655a599b') in 0.005809 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000095 seconds.
+  path: Assets/SniperRifle/Materials/2048/Rifle_Camo_2048.mat
+  artifactKey: Guid(a825d13896a736d49a6a01d326a9b935) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/SniperRifle/Materials/2048/Rifle_Camo_2048.mat using Guid(a825d13896a736d49a6a01d326a9b935) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0303147a32f6e5bde266aabed6e924a') in 0.015527 seconds 
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/JMO Assets/WarFX/Desktop/Materials/MuzzleFlashes/WFX_M_MF Glow.mat
+  artifactKey: Guid(99e588461de51d14a809c357f0191ba9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/JMO Assets/WarFX/Desktop/Materials/MuzzleFlashes/WFX_M_MF Glow.mat using Guid(99e588461de51d14a809c357f0191ba9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ca1500c2ca3cecd3406aabd4a62a340') in 0.010522 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/JMO Assets/WarFX/Mobile/Materials/MuzzleFlashes/WFXM_M_MF Glow.mat
+  artifactKey: Guid(5cd541080cf73ee4bbe682724bd0887b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/JMO Assets/WarFX/Mobile/Materials/MuzzleFlashes/WFXM_M_MF Glow.mat using Guid(5cd541080cf73ee4bbe682724bd0887b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd56b7fdb7b860f67c3a63bf3a42c7445') in 0.014558 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/SniperRifle/Materials/Scope/512/Scope_512.mat
+  artifactKey: Guid(5e9c699eb3018544d83f3bd1b6d08f12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/SniperRifle/Materials/Scope/512/Scope_512.mat using Guid(5e9c699eb3018544d83f3bd1b6d08f12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d81d397ebc292f811b6e17b25536c6f') in 0.011029 seconds 
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/UnityTechnologies/EffectExamples/WeaponEffects/Materials/Projectile.mat
+  artifactKey: Guid(a24a209a6bd187d49929d1a6d40a92ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/UnityTechnologies/EffectExamples/WeaponEffects/Materials/Projectile.mat using Guid(a24a209a6bd187d49929d1a6d40a92ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5df057728df01998a7a84d8e59852d89') in 0.005294 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/RPG_FPS_game_assets_industrial/Other_props/Electric_box/Electric_box_v3/Source/Electric_box_v3.mat
+  artifactKey: Guid(84eeb742ea1c3a54599c3f405e69cbd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/RPG_FPS_game_assets_industrial/Other_props/Electric_box/Electric_box_v3/Source/Electric_box_v3.mat using Guid(84eeb742ea1c3a54599c3f405e69cbd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68ff7549d275ed43b72b1d99687c4213') in 0.007496 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/UnityTechnologies/EffectExamples/Shared/Materials/Background.mat
+  artifactKey: Guid(0ae8aab4ae40e7741a636cf6e5136a55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/UnityTechnologies/EffectExamples/Shared/Materials/Background.mat using Guid(0ae8aab4ae40e7741a636cf6e5136a55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a25eec6640c25da3b6ac77ba51c289a4') in 0.008869 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/RPG_FPS_game_assets_industrial/Other_props/Pipes/Industrial_pipes/Industrial_pipe_v1/Source/Industrial_pipe_v1.mat
+  artifactKey: Guid(8290c716c91fee74faa2bd2490e059a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/RPG_FPS_game_assets_industrial/Other_props/Pipes/Industrial_pipes/Industrial_pipe_v1/Source/Industrial_pipe_v1.mat using Guid(8290c716c91fee74faa2bd2490e059a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13af1c3bc9b804d3acebb69c2ea83d44') in 0.007775 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/UnityTechnologies/EffectExamples/Misc Effects/Materials/DustMoteParticle.mat
+  artifactKey: Guid(e27a3e2f84809914fa5bf3a7ac14ce9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/UnityTechnologies/EffectExamples/Misc Effects/Materials/DustMoteParticle.mat using Guid(e27a3e2f84809914fa5bf3a7ac14ce9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd2cfd246e2d9506d395dcba9e13c815') in 0.009626 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/UnityTechnologies/EffectExamples/WeaponEffects/Textures/BloodStreak.mat
+  artifactKey: Guid(2f03a6f5f76f67c45ae05e606f7ca2da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/UnityTechnologies/EffectExamples/WeaponEffects/Textures/BloodStreak.mat using Guid(2f03a6f5f76f67c45ae05e606f7ca2da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4828a75ee4bd3bcd408df4540c16c8a') in 0.006369 seconds 
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/UnityTechnologies/EffectExamples/FireExplosionEffects/Materials/PlasmaExplosionParticle.mat
+  artifactKey: Guid(7ff1ab0b724442843965e2dd0f02e969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/UnityTechnologies/EffectExamples/FireExplosionEffects/Materials/PlasmaExplosionParticle.mat using Guid(7ff1ab0b724442843965e2dd0f02e969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8465698373ebc3f81aea98df073cdd33') in 0.007453 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/SniperRifle/Materials/4096/Rifle_Camo_4096.mat
+  artifactKey: Guid(6ed50ef604a31d04ca6d78290e6d1eae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/SniperRifle/Materials/4096/Rifle_Camo_4096.mat using Guid(6ed50ef604a31d04ca6d78290e6d1eae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '713e042dfa13c134ea5ee57b1a5d0e57') in 0.047203 seconds 
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF - Sunny Days.mat
+  artifactKey: Guid(6522f30e342599e4e9dd4cc2cc03c830) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF - Sunny Days.mat using Guid(6522f30e342599e4e9dd4cc2cc03c830) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05d99e2a9a295bd10baf68d1ca11f74c') in 0.145371 seconds 
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/RPG_FPS_game_assets_industrial/Buildings/Industrial/Hangars/Hangar_v4/Source/Hangar_v4.mat
+  artifactKey: Guid(80862cc9f0fa8244dabb1d398ece476a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/RPG_FPS_game_assets_industrial/Buildings/Industrial/Hangars/Hangar_v4/Source/Hangar_v4.mat using Guid(80862cc9f0fa8244dabb1d398ece476a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c445cac44a3f50899fd0a19d4476b0fc') in 0.011470 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/FPS Shooting Pack/Materials/revolver_mt.mat
+  artifactKey: Guid(513d58cfeeae45c479052c167637774b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/FPS Shooting Pack/Materials/revolver_mt.mat using Guid(513d58cfeeae45c479052c167637774b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a6f7ac83b1fb4dfe302b2c233b5a00b') in 0.016351 seconds 
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Materials/bulletImpactEffect.mat
+  artifactKey: Guid(f8853773f52a4434f8156916603acff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Materials/bulletImpactEffect.mat using Guid(f8853773f52a4434f8156916603acff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfd328dcdbe281bd36bf7cc59d679fd7') in 0.028449 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/UnityTechnologies/EffectExamples/Shared/Materials/DarkDefault.mat
+  artifactKey: Guid(2062b6d0a7a2d4f46b4689198aedadd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/UnityTechnologies/EffectExamples/Shared/Materials/DarkDefault.mat using Guid(2062b6d0a7a2d4f46b4689198aedadd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20ed955d1e41aca0123fe2be9c7c022e') in 0.008989 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000077 seconds.
+  path: Assets/JMO Assets/WarFX/Desktop/Materials/Smoke/WFX_M_SmokeGrenadeWhite.mat
+  artifactKey: Guid(8125e28080ea54248a42c7c6494cd5b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/JMO Assets/WarFX/Desktop/Materials/Smoke/WFX_M_SmokeGrenadeWhite.mat using Guid(8125e28080ea54248a42c7c6494cd5b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '510228ec1c0b5396b9111a4349cf3203') in 0.010041 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.001027 seconds.
+  path: Assets/SniperRifle/Materials/1024/Rifle_1024.mat
+  artifactKey: Guid(94ffda097988c69409c72f050f080906) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/SniperRifle/Materials/1024/Rifle_1024.mat using Guid(94ffda097988c69409c72f050f080906) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24a17e79b85c8b6992df7281fd2c2157') in 0.007521 seconds 
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Materials/Test/Blue.mat
+  artifactKey: Guid(d5f9aa15cd1f6447e9f68b7b26918950) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Materials/Test/Blue.mat using Guid(d5f9aa15cd1f6447e9f68b7b26918950) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a7f842f9f33974363c1bfe7e1693101') in 0.006148 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/UnityTechnologies/EffectExamples/Shared/Materials/SandSurface.mat
+  artifactKey: Guid(26bc8648a85c6b041a5d5b00ca61062b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/UnityTechnologies/EffectExamples/Shared/Materials/SandSurface.mat using Guid(26bc8648a85c6b041a5d5b00ca61062b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de57c85072938d8d4e20a9e49d07c9ac') in 0.009115 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/FPS Shooting Pack/Materials/fps_mt04.mat
+  artifactKey: Guid(52cc584a0f8364e4d825058cf0f1ed9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/FPS Shooting Pack/Materials/fps_mt04.mat using Guid(52cc584a0f8364e4d825058cf0f1ed9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '370396ea8ddde4a066a268bdc7ec01f6') in 0.014654 seconds 
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/LiberationSans SDF - Soft Mask.mat
+  artifactKey: Guid(42df1c7856584b6b8db9a509b6b10074) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/LiberationSans SDF - Soft Mask.mat using Guid(42df1c7856584b6b8db9a509b6b10074) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3237b945c0442a53bc761fdce8f7b30e') in 0.031288 seconds 
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002061 seconds.
+Begin MonoManager ReloadAssembly
+Thread 0x330bcb000 may have been prematurely finalized
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.82 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  1.146 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1147ms)
+		BeginReloadAssembly (148ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (75ms)
+		EndReloadAssembly (941ms)
+			LoadAssemblies (59ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (218ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (44ms)
+			SetupLoadedEditorAssemblies (568ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (2ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (50ms)
+				ProcessInitializeOnLoadAttributes (468ms)
+				ProcessInitializeOnLoadMethodAttributes (46ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (14ms)
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 1.04 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5127 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 92 unused Assets / (23.0 MB). Loaded Objects now: 5826.
+Memory consumption went from 253.8 MB to 230.8 MB.
+Total: 5.505417 ms (FindLiveObjects: 0.234042 ms CreateObjectMapping: 0.085167 ms MarkObjects: 3.135792 ms  DeleteObjects: 2.049709 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:CustomObjectIndexerAttribute: f67f22312cbe972f2da930a377ed3d15 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002459 seconds.
+Begin MonoManager ReloadAssembly
+Thread 0x3250b3000 may have been prematurely finalized
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.39 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  1.124 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1125ms)
+		BeginReloadAssembly (140ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (72ms)
+		EndReloadAssembly (926ms)
+			LoadAssemblies (55ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (217ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (574ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (2ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (49ms)
+				ProcessInitializeOnLoadAttributes (469ms)
+				ProcessInitializeOnLoadMethodAttributes (51ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 0.82 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5119 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 73 unused Assets / (23.0 MB). Loaded Objects now: 5830.
+Memory consumption went from 253.1 MB to 230.2 MB.
+Total: 5.226625 ms (FindLiveObjects: 0.220000 ms CreateObjectMapping: 0.122042 ms MarkObjects: 2.531375 ms  DeleteObjects: 2.352583 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:CustomObjectIndexerAttribute: f67f22312cbe972f2da930a377ed3d15 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 542.822768 seconds.
+  path: Assets/Prefabs/Effects
+  artifactKey: Guid(c0f206886c35b48f58fb1182c71f2dbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Prefabs/Effects using Guid(c0f206886c35b48f58fb1182c71f2dbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84860ff5e51e94b4693bcff22031b925') in 0.120248 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002135 seconds.
+Begin MonoManager ReloadAssembly
+Thread 0x16dd67000 may have been prematurely finalized
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.69 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  1.157 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1159ms)
+		BeginReloadAssembly (160ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (13ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (85ms)
+		EndReloadAssembly (939ms)
+			LoadAssemblies (55ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (229ms)
+			ReleaseScriptCaches (5ms)
+			RebuildScriptCaches (36ms)
+			SetupLoadedEditorAssemblies (569ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (2ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (49ms)
+				ProcessInitializeOnLoadAttributes (467ms)
+				ProcessInitializeOnLoadMethodAttributes (47ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 0.95 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5119 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 73 unused Assets / (23.0 MB). Loaded Objects now: 5834.
+Memory consumption went from 253.1 MB to 230.2 MB.
+Total: 5.103209 ms (FindLiveObjects: 0.284666 ms CreateObjectMapping: 0.135167 ms MarkObjects: 2.793333 ms  DeleteObjects: 1.889167 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:CustomObjectIndexerAttribute: f67f22312cbe972f2da930a377ed3d15 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 77.369368 seconds.
+  path: Assets/Animations/Weapons_and_Throwables.prefab
+  artifactKey: Guid(daba0ec5f8e784f24a25e8170e0d14eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Animations/Weapons_and_Throwables.prefab using Guid(daba0ec5f8e784f24a25e8170e0d14eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc86d0c8f460b2a76f8640400ade8cb9') in 0.342141 seconds 
+Number of asset objects unloaded after import = 243
+========================================================================
+Received Import Request.
+  Time since last request: 14.084359 seconds.
+  path: Assets/Scenes/EE.unity
+  artifactKey: Guid(99c9720ab356a0642a771bea13969a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Scenes/EE.unity using Guid(99c9720ab356a0642a771bea13969a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe8b3777c446a698ccc7617e16783465') in 0.001552 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 11.674136 seconds.
+  path: Assets/Scenes/Main Level.unity
+  artifactKey: Guid(99c9720ab356a0642a771bea13969a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Scenes/Main Level.unity using Guid(99c9720ab356a0642a771bea13969a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26c5fafe488ecbfa8debd00e21f2c5d7') in 0.001368 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 99.675647 seconds.
+  path: Assets/UnityTechnologies/EffectExamples/FireExplosionEffects/Prefabs/FlameThrowerEffect.prefab
+  artifactKey: Guid(3123da49cb81147489b444f2749aba47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/UnityTechnologies/EffectExamples/FireExplosionEffects/Prefabs/FlameThrowerEffect.prefab using Guid(3123da49cb81147489b444f2749aba47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b59e4775bb894a9746a6fc2218025c6a') in 0.357560 seconds 
+Number of asset objects unloaded after import = 58
+========================================================================
+Received Import Request.
+  Time since last request: 1141.509357 seconds.
+  path: Assets/MASH Virtual
+  artifactKey: Guid(57d60ee5f8b5d40f88fb995fbb528d89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/MASH Virtual using Guid(57d60ee5f8b5d40f88fb995fbb528d89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '611f405f099391def1c170561d258350') in 0.011530 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.080311 seconds.
+  path: Assets/MASH Virtual/Table
+  artifactKey: Guid(939b062c349685943a09913307a0efbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/MASH Virtual/Table using Guid(939b062c349685943a09913307a0efbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28544efdd6f76e7fe834227f504d8314') in 0.003616 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 2.529531 seconds.
+  path: Assets/MASH Virtual/Table/Prefab
+  artifactKey: Guid(ef33f687ebe0519408417a45f300965d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/MASH Virtual/Table/Prefab using Guid(ef33f687ebe0519408417a45f300965d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5765b36b4b21c9b7635854e5898eb391') in 0.001561 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.033492 seconds.
+  path: Assets/MASH Virtual/Table/Prefab/Table_New.prefab
+  artifactKey: Guid(7d72879ba54738d42887f83754ca3b26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/MASH Virtual/Table/Prefab/Table_New.prefab using Guid(7d72879ba54738d42887f83754ca3b26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5db3930cf1006d4ff1d36c093c349daa') in 0.156484 seconds 
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Import Request.
+  Time since last request: 3.311180 seconds.
+  path: Assets/MASH Virtual/Table/Material
+  artifactKey: Guid(2384be8930896eb4ba08eeb7aa206bab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/MASH Virtual/Table/Material using Guid(2384be8930896eb4ba08eeb7aa206bab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b6badbf3c6b7e7dccf5974471d25766') in 0.001548 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.052042 seconds.
+  path: Assets/MASH Virtual/Table/Material/Plane.mat
+  artifactKey: Guid(88db475fd13ccdf4ea08c4ca3594dcec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/MASH Virtual/Table/Material/Plane.mat using Guid(88db475fd13ccdf4ea08c4ca3594dcec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45f31d0b6796de16b32fcdb22f9f6532') in 0.040603 seconds 
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/MASH Virtual/Table/Material/Table Old Mat.mat
+  artifactKey: Guid(2e2e287d72d1c4f44b3cb5433a9abe62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/MASH Virtual/Table/Material/Table Old Mat.mat using Guid(2e2e287d72d1c4f44b3cb5433a9abe62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a48159b9dda4d57b1e8716624fce898b') in 0.020909 seconds 
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 17.101716 seconds.
+  path: Assets/MASH Virtual/Table/Texutre
+  artifactKey: Guid(712bf546504e687458259abcacd249f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/MASH Virtual/Table/Texutre using Guid(712bf546504e687458259abcacd249f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '745f4693c5b9d6844c0e6f7cc8ef383a') in 0.002745 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.030055 seconds.
+  path: Assets/MASH Virtual/Table/Texutre/Parking_Table_Table_New_AlbedoTransparency.png
+  artifactKey: Guid(f66f931405cea194cadf5b5f81143924) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/MASH Virtual/Table/Texutre/Parking_Table_Table_New_AlbedoTransparency.png using Guid(f66f931405cea194cadf5b5f81143924) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54314d67d640e7684bd774d5f14a8e63') in 0.248864 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/MASH Virtual/Table/Texutre/Parking_Table_Table_Old_MetallicSmoothness.png
+  artifactKey: Guid(557a443626ed5ad4f9cdfe1b23576768) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/MASH Virtual/Table/Texutre/Parking_Table_Table_Old_MetallicSmoothness.png using Guid(557a443626ed5ad4f9cdfe1b23576768) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c156faa436471143b48e670f10eabeda') in 0.017271 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/MASH Virtual/Table/Texutre/Plane_phong1_Normal.png
+  artifactKey: Guid(588d74ab7afec9f4184e30732efe0c02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/MASH Virtual/Table/Texutre/Plane_phong1_Normal.png using Guid(588d74ab7afec9f4184e30732efe0c02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ce4aed6453dcf434e2b8e6c940a96d7') in 0.015790 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002154 seconds.
+Begin MonoManager ReloadAssembly
+Thread 0x16e36b000 may have been prematurely finalized
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.94 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  1.144 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1145ms)
+		BeginReloadAssembly (147ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (74ms)
+		EndReloadAssembly (938ms)
+			LoadAssemblies (68ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (213ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (577ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (2ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (49ms)
+				ProcessInitializeOnLoadAttributes (476ms)
+				ProcessInitializeOnLoadMethodAttributes (48ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (15ms)
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 0.88 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5119 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 92 unused Assets / (23.0 MB). Loaded Objects now: 5885.
+Memory consumption went from 261.9 MB to 239.0 MB.
+Total: 5.251375 ms (FindLiveObjects: 0.246125 ms CreateObjectMapping: 0.106583 ms MarkObjects: 2.905834 ms  DeleteObjects: 1.992041 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:CustomObjectIndexerAttribute: f67f22312cbe972f2da930a377ed3d15 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002275 seconds.
+Begin MonoManager ReloadAssembly
+Thread 0x16e36b000 may have been prematurely finalized
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.94 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  1.128 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1129ms)
+		BeginReloadAssembly (134ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (63ms)
+		EndReloadAssembly (935ms)
+			LoadAssemblies (59ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (217ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (36ms)
+			SetupLoadedEditorAssemblies (578ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (2ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (50ms)
+				ProcessInitializeOnLoadAttributes (477ms)
+				ProcessInitializeOnLoadMethodAttributes (47ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 0.82 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5119 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 73 unused Assets / (23.0 MB). Loaded Objects now: 5889.
+Memory consumption went from 261.6 MB to 238.7 MB.
+Total: 4.896667 ms (FindLiveObjects: 0.355583 ms CreateObjectMapping: 0.145000 ms MarkObjects: 2.559500 ms  DeleteObjects: 1.835708 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:CustomObjectIndexerAttribute: f67f22312cbe972f2da930a377ed3d15 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002584 seconds.
+Begin MonoManager ReloadAssembly
+Thread 0x16e36b000 may have been prematurely finalized
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.88 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  1.141 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1141ms)
+		BeginReloadAssembly (141ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (78ms)
+		EndReloadAssembly (942ms)
+			LoadAssemblies (53ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (232ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (36ms)
+			SetupLoadedEditorAssemblies (577ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (2ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (50ms)
+				ProcessInitializeOnLoadAttributes (475ms)
+				ProcessInitializeOnLoadMethodAttributes (48ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 0.97 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5119 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 73 unused Assets / (23.0 MB). Loaded Objects now: 5893.
+Memory consumption went from 261.8 MB to 238.9 MB.
+Total: 5.616875 ms (FindLiveObjects: 0.322125 ms CreateObjectMapping: 0.144833 ms MarkObjects: 2.980834 ms  DeleteObjects: 2.168416 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:CustomObjectIndexerAttribute: f67f22312cbe972f2da930a377ed3d15 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002132 seconds.
+Begin MonoManager ReloadAssembly
+Thread 0x16e36b000 may have been prematurely finalized
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.70 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  1.122 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1123ms)
+		BeginReloadAssembly (121ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (60ms)
+		EndReloadAssembly (942ms)
+			LoadAssemblies (56ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (226ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (36ms)
+			SetupLoadedEditorAssemblies (581ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (2ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (50ms)
+				ProcessInitializeOnLoadAttributes (480ms)
+				ProcessInitializeOnLoadMethodAttributes (48ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 0.85 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5119 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 73 unused Assets / (23.0 MB). Loaded Objects now: 5897.
+Memory consumption went from 261.9 MB to 238.9 MB.
+Total: 5.188916 ms (FindLiveObjects: 0.340709 ms CreateObjectMapping: 0.105125 ms MarkObjects: 2.826417 ms  DeleteObjects: 1.915750 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:CustomObjectIndexerAttribute: f67f22312cbe972f2da930a377ed3d15 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 994.050153 seconds.
+  path: Assets/Prefabs/New Folder
+  artifactKey: Guid(ed0d5b352d6a24321912dcef27a423e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Prefabs/New Folder using Guid(ed0d5b352d6a24321912dcef27a423e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90b3be16d3b7394cd75c01e8feb1e625') in 0.060790 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 3.636037 seconds.
+  path: Assets/Prefabs/New Folder/Grenade.prefab
+  artifactKey: Guid(b0a474561145b4be39691e260cf165b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Prefabs/New Folder/Grenade.prefab using Guid(b0a474561145b4be39691e260cf165b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd61c2cf7acc8d6f6da622acdc556c3b2') in 0.166898 seconds 
+Number of asset objects unloaded after import = 24
+========================================================================
+Received Import Request.
+  Time since last request: 5.007594 seconds.
+  path: Assets/Prefabs/New Folder/Stun_Grenade.prefab
+  artifactKey: Guid(20b58ccb452fd4130ba580f2e297238c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Prefabs/New Folder/Stun_Grenade.prefab using Guid(20b58ccb452fd4130ba580f2e297238c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9064143a02df6f0ce2017eac82017c15') in 0.013297 seconds 
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 5.898332 seconds.
+  path: Assets/Prefabs/New Folder/Smoke_Grenade.prefab
+  artifactKey: Guid(37ab26583569d41bfa573c86bd41f036) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Prefabs/New Folder/Smoke_Grenade.prefab using Guid(37ab26583569d41bfa573c86bd41f036) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42f05f52b352227b9b93e92013dfd868') in 0.012948 seconds 
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002055 seconds.
+Begin MonoManager ReloadAssembly
+Thread 0x16e36b000 may have been prematurely finalized
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.07 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  1.133 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1134ms)
+		BeginReloadAssembly (142ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (15ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (71ms)
+		EndReloadAssembly (926ms)
+			LoadAssemblies (53ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (215ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (36ms)
+			SetupLoadedEditorAssemblies (571ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (2ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (48ms)
+				ProcessInitializeOnLoadAttributes (471ms)
+				ProcessInitializeOnLoadMethodAttributes (48ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (15ms)
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 0.91 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5119 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 91 unused Assets / (23.0 MB). Loaded Objects now: 5939.
+Memory consumption went from 262.1 MB to 239.1 MB.
+Total: 5.414416 ms (FindLiveObjects: 0.501792 ms CreateObjectMapping: 0.131791 ms MarkObjects: 2.697042 ms  DeleteObjects: 2.082958 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:CustomObjectIndexerAttribute: f67f22312cbe972f2da930a377ed3d15 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002219 seconds.
+Begin MonoManager ReloadAssembly
+Thread 0x16e36b000 may have been prematurely finalized
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.76 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  1.130 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1131ms)
+		BeginReloadAssembly (132ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (71ms)
+		EndReloadAssembly (940ms)
+			LoadAssemblies (54ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (211ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (36ms)
+			SetupLoadedEditorAssemblies (593ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (2ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (49ms)
+				ProcessInitializeOnLoadAttributes (493ms)
+				ProcessInitializeOnLoadMethodAttributes (47ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 0.83 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5119 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 73 unused Assets / (23.0 MB). Loaded Objects now: 5943.
+Memory consumption went from 262.0 MB to 239.0 MB.
+Total: 5.758583 ms (FindLiveObjects: 0.261791 ms CreateObjectMapping: 0.088834 ms MarkObjects: 3.191958 ms  DeleteObjects: 2.215500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:CustomObjectIndexerAttribute: f67f22312cbe972f2da930a377ed3d15 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 63.069200 seconds.
+  path: Assets/Prefabs/New Folder/Smoke_Grenade.prefab
+  artifactKey: Guid(37ab26583569d41bfa573c86bd41f036) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Prefabs/New Folder/Smoke_Grenade.prefab using Guid(37ab26583569d41bfa573c86bd41f036) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28658e8a44e5aa59f1a0c975d47a61f1') in 0.202492 seconds 
+Number of asset objects unloaded after import = 19
+========================================================================
+Received Import Request.
+  Time since last request: 3.052770 seconds.
+  path: Assets/Prefabs/New Folder/Grenade.prefab
+  artifactKey: Guid(b0a474561145b4be39691e260cf165b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Prefabs/New Folder/Grenade.prefab using Guid(b0a474561145b4be39691e260cf165b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91108786229ed75460ccee6fc89dfd86') in 0.011817 seconds 
+Number of asset objects unloaded after import = 24
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002806 seconds.
+Begin MonoManager ReloadAssembly
+Thread 0x16e36b000 may have been prematurely finalized
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.01 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  1.194 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1195ms)
+		BeginReloadAssembly (186ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (112ms)
+		EndReloadAssembly (949ms)
+			LoadAssemblies (56ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (226ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (581ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (2ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (50ms)
+				ProcessInitializeOnLoadAttributes (479ms)
+				ProcessInitializeOnLoadMethodAttributes (48ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (15ms)
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 0.96 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5119 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 91 unused Assets / (23.0 MB). Loaded Objects now: 5985.
+Memory consumption went from 262.0 MB to 239.1 MB.
+Total: 6.048917 ms (FindLiveObjects: 0.278667 ms CreateObjectMapping: 0.138459 ms MarkObjects: 3.574208 ms  DeleteObjects: 2.056500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:CustomObjectIndexerAttribute: f67f22312cbe972f2da930a377ed3d15 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002049 seconds.
+Begin MonoManager ReloadAssembly
+Thread 0x16e36b000 may have been prematurely finalized
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.82 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  1.120 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1121ms)
+		BeginReloadAssembly (137ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (74ms)
+		EndReloadAssembly (924ms)
+			LoadAssemblies (47ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (217ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (37ms)
+			SetupLoadedEditorAssemblies (574ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (2ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (49ms)
+				ProcessInitializeOnLoadAttributes (473ms)
+				ProcessInitializeOnLoadMethodAttributes (48ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 0.87 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5119 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 73 unused Assets / (23.0 MB). Loaded Objects now: 5989.
+Memory consumption went from 262.1 MB to 239.2 MB.
+Total: 4.461791 ms (FindLiveObjects: 0.251500 ms CreateObjectMapping: 0.083708 ms MarkObjects: 2.359041 ms  DeleteObjects: 1.766750 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:CustomObjectIndexerAttribute: f67f22312cbe972f2da930a377ed3d15 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002187 seconds.
+Begin MonoManager ReloadAssembly
+Thread 0x16e36b000 may have been prematurely finalized
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.87 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  1.127 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1127ms)
+		BeginReloadAssembly (133ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (14ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (63ms)
+		EndReloadAssembly (934ms)
+			LoadAssemblies (56ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (224ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (36ms)
+			SetupLoadedEditorAssemblies (573ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (2ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (50ms)
+				ProcessInitializeOnLoadAttributes (471ms)
+				ProcessInitializeOnLoadMethodAttributes (48ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (13ms)
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 0.87 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5119 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 73 unused Assets / (22.9 MB). Loaded Objects now: 5993.
+Memory consumption went from 262.2 MB to 239.2 MB.
+Total: 5.070250 ms (FindLiveObjects: 0.265917 ms CreateObjectMapping: 0.086541 ms MarkObjects: 2.571625 ms  DeleteObjects: 2.144875 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:CustomObjectIndexerAttribute: f67f22312cbe972f2da930a377ed3d15 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002069 seconds.
+Begin MonoManager ReloadAssembly
+Thread 0x16e36b000 may have been prematurely finalized
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.91 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  1.164 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1165ms)
+		BeginReloadAssembly (135ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (65ms)
+		EndReloadAssembly (970ms)
+			LoadAssemblies (67ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (224ms)
+			ReleaseScriptCaches (4ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (592ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (2ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (55ms)
+				ProcessInitializeOnLoadAttributes (483ms)
+				ProcessInitializeOnLoadMethodAttributes (50ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (13ms)
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 0.99 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5119 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 73 unused Assets / (23.0 MB). Loaded Objects now: 5997.
+Memory consumption went from 262.2 MB to 239.2 MB.
+Total: 5.536250 ms (FindLiveObjects: 0.240959 ms CreateObjectMapping: 0.115041 ms MarkObjects: 3.202334 ms  DeleteObjects: 1.976209 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:CustomObjectIndexerAttribute: f67f22312cbe972f2da930a377ed3d15 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002193 seconds.
+ArgumentException: An item with the same key has already been added. Key: 00000000000000000000000000000000
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x0015a] in <ea82cbe051464f7ab14c1c8fcd914b1b>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <ea82cbe051464f7ab14c1c8fcd914b1b>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (TSource[] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x0001c] in <73bce13c4afd4d0c8996640c6a0916e6>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x00043] in <73bce13c4afd4d0c8996640c6a0916e6>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector) [0x00000] in <73bce13c4afd4d0c8996640c6a0916e6>:0 
+  at UnityEditor.Scripting.ScriptCompilation.LoadingAssemblyDefinition.SetAllCustomScriptAssemblyReferenceJsonsContents (System.String[] paths, System.String[] contents) [0x00167] in /Users/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/LoadingAssemblyDefinition.cs:244 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:LogException(Exception) (at /Users/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/EditorCompilationInterface.cs:33)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:EmitExceptionsAsErrors(Exception[]) (at /Users/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/EditorCompilationInterface.cs:42)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:SetAllCustomScriptAssemblyReferenceJsons(String[], String[]) (at /Users/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/EditorCompilationInterface.cs:134)
+
+(Filename: /Users/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/LoadingAssemblyDefinition.cs Line: 244)
+
+ArgumentException: An item with the same key has already been added. Key: 00000000000000000000000000000000
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x0015a] in <ea82cbe051464f7ab14c1c8fcd914b1b>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <ea82cbe051464f7ab14c1c8fcd914b1b>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (TSource[] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x0001c] in <73bce13c4afd4d0c8996640c6a0916e6>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x00043] in <73bce13c4afd4d0c8996640c6a0916e6>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector) [0x00000] in <73bce13c4afd4d0c8996640c6a0916e6>:0 
+  at UnityEditor.Scripting.ScriptCompilation.LoadingAssemblyDefinition.SetAllCustomScriptAssemblyReferenceJsonsContents (System.String[] paths, System.String[] contents) [0x00167] in /Users/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/LoadingAssemblyDefinition.cs:244 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:LogException(Exception) (at /Users/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/EditorCompilationInterface.cs:33)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:EmitExceptionsAsErrors(Exception[]) (at /Users/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/EditorCompilationInterface.cs:42)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:SetAllCustomScriptAssemblyReferenceJsons(String[], String[]) (at /Users/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/EditorCompilationInterface.cs:134)
+
+(Filename: /Users/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/LoadingAssemblyDefinition.cs Line: 244)
+
+ArgumentException: An item with the same key has already been added. Key: 00000000000000000000000000000000
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x0015a] in <ea82cbe051464f7ab14c1c8fcd914b1b>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <ea82cbe051464f7ab14c1c8fcd914b1b>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (TSource[] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x0001c] in <73bce13c4afd4d0c8996640c6a0916e6>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x00043] in <73bce13c4afd4d0c8996640c6a0916e6>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector) [0x00000] in <73bce13c4afd4d0c8996640c6a0916e6>:0 
+  at UnityEditor.Scripting.ScriptCompilation.LoadingAssemblyDefinition.SetAllCustomScriptAssemblyReferenceJsonsContents (System.String[] paths, System.String[] contents) [0x00167] in /Users/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/LoadingAssemblyDefinition.cs:244 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:LogException(Exception) (at /Users/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/EditorCompilationInterface.cs:33)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:EmitExceptionsAsErrors(Exception[]) (at /Users/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/EditorCompilationInterface.cs:42)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:SetAllCustomScriptAssemblyReferenceJsons(String[], String[]) (at /Users/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/EditorCompilationInterface.cs:134)
+
+(Filename: /Users/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/LoadingAssemblyDefinition.cs Line: 244)
+
+ArgumentException: An item with the same key has already been added. Key: 00000000000000000000000000000000
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x0015a] in <ea82cbe051464f7ab14c1c8fcd914b1b>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <ea82cbe051464f7ab14c1c8fcd914b1b>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (TSource[] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x0001c] in <73bce13c4afd4d0c8996640c6a0916e6>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x00043] in <73bce13c4afd4d0c8996640c6a0916e6>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector) [0x00000] in <73bce13c4afd4d0c8996640c6a0916e6>:0 
+  at UnityEditor.Scripting.ScriptCompilation.LoadingAssemblyDefinition.SetAllCustomScriptAssemblyReferenceJsonsContents (System.String[] paths, System.String[] contents) [0x00167] in /Users/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/LoadingAssemblyDefinition.cs:244 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:LogException(Exception) (at /Users/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/EditorCompilationInterface.cs:33)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:EmitExceptionsAsErrors(Exception[]) (at /Users/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/EditorCompilationInterface.cs:42)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:SetAllCustomScriptAssemblyReferenceJsons(String[], String[]) (at /Users/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/EditorCompilationInterface.cs:134)
+
+(Filename: /Users/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/LoadingAssemblyDefinition.cs Line: 244)
+
+Begin MonoManager ReloadAssembly
+Thread 0x16e36b000 may have been prematurely finalized
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 88.24 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+ArgumentException: An item with the same key has already been added. Key: 00000000000000000000000000000000
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x0015a] in <ea82cbe051464f7ab14c1c8fcd914b1b>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <ea82cbe051464f7ab14c1c8fcd914b1b>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (TSource[] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x0001c] in <73bce13c4afd4d0c8996640c6a0916e6>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x00043] in <73bce13c4afd4d0c8996640c6a0916e6>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector) [0x00000] in <73bce13c4afd4d0c8996640c6a0916e6>:0 
+  at UnityEditor.Scripting.ScriptCompilation.LoadingAssemblyDefinition.SetAllCustomScriptAssemblyReferenceJsonsContents (System.String[] paths, System.String[] contents) [0x00167] in /Users/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/LoadingAssemblyDefinition.cs:244 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:LogException(Exception) (at /Users/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/EditorCompilationInterface.cs:33)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:EmitExceptionsAsErrors(Exception[]) (at /Users/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/EditorCompilationInterface.cs:42)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:SetAllCustomScriptAssemblyReferenceJsons(String[], String[]) (at /Users/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/EditorCompilationInterface.cs:134)
+
+(Filename: /Users/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/LoadingAssemblyDefinition.cs Line: 244)
+
+ArgumentException: An item with the same key has already been added. Key: 00000000000000000000000000000000
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].TryInsert (TKey key, TValue value, System.Collections.Generic.InsertionBehavior behavior) [0x0015a] in <ea82cbe051464f7ab14c1c8fcd914b1b>:0 
+  at System.Collections.Generic.Dictionary`2[TKey,TValue].Add (TKey key, TValue value) [0x00000] in <ea82cbe051464f7ab14c1c8fcd914b1b>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (TSource[] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x0001c] in <73bce13c4afd4d0c8996640c6a0916e6>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector, System.Collections.Generic.IEqualityComparer`1[T] comparer) [0x00043] in <73bce13c4afd4d0c8996640c6a0916e6>:0 
+  at System.Linq.Enumerable.ToDictionary[TSource,TKey] (System.Collections.Generic.IEnumerable`1[T] source, System.Func`2[T,TResult] keySelector) [0x00000] in <73bce13c4afd4d0c8996640c6a0916e6>:0 
+  at UnityEditor.Scripting.ScriptCompilation.LoadingAssemblyDefinition.SetAllCustomScriptAssemblyReferenceJsonsContents (System.String[] paths, System.String[] contents) [0x00167] in /Users/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/LoadingAssemblyDefinition.cs:244 
+UnityEngine.DebugLogHandler:Internal_LogException(Exception, Object)
+UnityEngine.DebugLogHandler:LogException(Exception, Object)
+UnityEngine.Logger:LogException(Exception, Object)
+UnityEngine.Debug:LogException(Exception)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:LogException(Exception) (at /Users/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/EditorCompilationInterface.cs:33)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:EmitExceptionsAsErrors(Exception[]) (at /Users/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/EditorCompilationInterface.cs:42)
+UnityEditor.Scripting.ScriptCompilation.EditorCompilationInterface:SetAllCustomScriptAssemblyReferenceJsons(String[], String[]) (at /Users/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/EditorCompilationInterface.cs:134)
+
+(Filename: /Users/bokken/build/output/unity/unity/Editor/Mono/Scripting/ScriptCompilation/LoadingAssemblyDefinition.cs Line: 244)
+
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  1.252 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1253ms)
+		BeginReloadAssembly (190ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (11ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (81ms)
+		EndReloadAssembly (1010ms)
+			LoadAssemblies (62ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (224ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (30ms)
+			SetupLoadedEditorAssemblies (665ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (1ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (88ms)
+				BeforeProcessingInitializeOnLoad (63ms)
+				ProcessInitializeOnLoadAttributes (471ms)
+				ProcessInitializeOnLoadMethodAttributes (40ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 0.62 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4794 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 269 unused Assets / (2.0 MB). Loaded Objects now: 5770.
+Memory consumption went from 218.9 MB to 216.9 MB.
+Total: 3.205583 ms (FindLiveObjects: 0.290500 ms CreateObjectMapping: 0.109750 ms MarkObjects: 2.462958 ms  DeleteObjects: 0.341458 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:CustomObjectIndexerAttribute: f67f22312cbe972f2da930a377ed3d15 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002883 seconds.
+Begin MonoManager ReloadAssembly
+Thread 0x16e36b000 may have been prematurely finalized
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 101.64 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  1.317 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1317ms)
+		BeginReloadAssembly (183ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (93ms)
+		EndReloadAssembly (1068ms)
+			LoadAssemblies (104ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (239ms)
+			ReleaseScriptCaches (6ms)
+			RebuildScriptCaches (32ms)
+			SetupLoadedEditorAssemblies (663ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (2ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (102ms)
+				BeforeProcessingInitializeOnLoad (47ms)
+				ProcessInitializeOnLoadAttributes (465ms)
+				ProcessInitializeOnLoadMethodAttributes (47ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+Shader 'WFX/Transparent Diffuse': fallback shader 'Particles/Alpha Blended' not found
+Shader 'WFX/Transparent Specular': fallback shader 'Particles/Alpha Blended' not found
+Refreshing native plugins compatible for Editor in 0.80 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5119 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 73 unused Assets / (22.9 MB). Loaded Objects now: 6004.
+Memory consumption went from 262.2 MB to 239.2 MB.
+Total: 4.977209 ms (FindLiveObjects: 0.239083 ms CreateObjectMapping: 0.151333 ms MarkObjects: 2.899084 ms  DeleteObjects: 1.686709 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:CustomObjectIndexerAttribute: f67f22312cbe972f2da930a377ed3d15 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 910.367400 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Textures/Sunny Days - Seamless.jpg
+  artifactKey: Guid(17c350171f7a3ca479f830547c66d187) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/TextMesh Pro/Examples & Extras/Textures/Sunny Days - Seamless.jpg using Guid(17c350171f7a3ca479f830547c66d187) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06adea8aa398498d1fb1b84c85ae9b79') in 0.601317 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 2.601492 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Editor/2D/Resources/SceneViewIcons/FreeformLight.png
+  artifactKey: Guid(c89564426827c76479d8772adb43e6e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Packages/com.unity.render-pipelines.universal/Editor/2D/Resources/SceneViewIcons/FreeformLight.png using Guid(c89564426827c76479d8772adb43e6e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6eff20ccd3dce6e21d6b5d4ca1a0fc1b') in 0.019506 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Packages/com.unity.ml-agents/Runtime/Grpc/Unity.ML-Agents.CommunicatorObjects.asmdef
+  artifactKey: Guid(61c5b659adf544b4baf3eef86248e13a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Packages/com.unity.ml-agents/Runtime/Grpc/Unity.ML-Agents.CommunicatorObjects.asmdef using Guid(61c5b659adf544b4baf3eef86248e13a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb2dfc4ad33774121eb964b2ab965f0e') in 0.066957 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Editor/2D/Resources/LightCapBottomLeft.png
+  artifactKey: Guid(fb7e2c1cde476854fb7067dcca74511a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Packages/com.unity.render-pipelines.universal/Editor/2D/Resources/LightCapBottomLeft.png using Guid(fb7e2c1cde476854fb7067dcca74511a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d6c31fa3d73003a58e43340e60f3cf5') in 0.006770 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Packages/com.unity.ml-agents/Tests/Editor/PublicAPI/Unity.ML-Agents.Editor.Tests.PublicAPI.asmdef
+  artifactKey: Guid(38254a2538c8f42fb9f2057d17fd0e70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Packages/com.unity.ml-agents/Tests/Editor/PublicAPI/Unity.ML-Agents.Editor.Tests.PublicAPI.asmdef using Guid(38254a2538c8f42fb9f2057d17fd0e70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66c4474ce1ef5e7966b65ef231e8eac2') in 0.000857 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Packages/com.unity.ml-agents/Tests/Runtime/Sensor/Unity.ML-Agents.Runtime.Sensor.Tests.asmdef
+  artifactKey: Guid(917f332e7ad944428f0246683188de8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Packages/com.unity.ml-agents/Tests/Runtime/Sensor/Unity.ML-Agents.Runtime.Sensor.Tests.asmdef using Guid(917f332e7ad944428f0246683188de8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a30bd15a191673c1a82e6060ab0a68f7') in 0.001392 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Packages/com.unity.ml-agents/Editor/Unity.ML-Agents.Editor.asmdef
+  artifactKey: Guid(42675ddec8c314cf08d17ee0f6f5e5a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Packages/com.unity.ml-agents/Editor/Unity.ML-Agents.Editor.asmdef using Guid(42675ddec8c314cf08d17ee0f6f5e5a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcf7a1168e038b4cd2388302361a5aca') in 0.001108 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000107 seconds.
+  path: Packages/com.unity.ml-agents/Runtime/Unity.ML-Agents.asmdef
+  artifactKey: Guid(85e0054f8e64b47309646d35f8851f81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Packages/com.unity.ml-agents/Runtime/Unity.ML-Agents.asmdef using Guid(85e0054f8e64b47309646d35f8851f81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e8baafe4181d222571c391893f1c3ec') in 0.001373 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 3.202541 seconds.
+  path: Packages/com.unity.ml-agents/com.unity.ml-agents.sln.DotSettings
+  artifactKey: Guid(c8f6f0111d3fb4d71af892263a7a614d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Packages/com.unity.ml-agents/com.unity.ml-agents.sln.DotSettings using Guid(c8f6f0111d3fb4d71af892263a7a614d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f513ec77f54315d74c68c5b772340952') in 0.054679 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 7.507061 seconds.
+  path: Packages/com.unity.ml-agents/package.json
+  artifactKey: Guid(e13b73fbfc8e74e4d87af46bf55d7df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Packages/com.unity.ml-agents/package.json using Guid(e13b73fbfc8e74e4d87af46bf55d7df6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff9de70d10750aa2624850e03046adfb') in 0.450105 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 2.337670 seconds.
+  path: Packages/com.unity.visualscripting/Editor/VisualScripting.Core/IconMap/AnimatorMessageListener@32x.png
+  artifactKey: Guid(9059e055aa673b3469a5c2896c0b8fb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Packages/com.unity.visualscripting/Editor/VisualScripting.Core/IconMap/AnimatorMessageListener@32x.png using Guid(9059e055aa673b3469a5c2896c0b8fb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f28122b0712848540443a782849005c1') in 0.013821 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.721819 seconds.
+  path: Packages/com.unity.ml-agents/Tests/Editor/TestModels/old_serialized_agent.prefab
+  artifactKey: Guid(07e2de94fa37b49c3bdf7a21857c0f73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Packages/com.unity.ml-agents/Tests/Editor/TestModels/old_serialized_agent.prefab using Guid(07e2de94fa37b49c3bdf7a21857c0f73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dcc0a8bffbec3b204ada50efda280ae') in 0.018799 seconds 
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time since last request: 0.266283 seconds.
+  path: Packages/com.unity.ml-agents/Tests/Runtime/Unity.ML-Agents.Runtime.Tests.asmdef
+  artifactKey: Guid(d29014db7ebcd4cf4a14f537fbf02110) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Packages/com.unity.ml-agents/Tests/Runtime/Unity.ML-Agents.Runtime.Tests.asmdef using Guid(d29014db7ebcd4cf4a14f537fbf02110) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ed67371989871975fdb7dc9a38b02de') in 0.001973 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 30.482568 seconds.
+  path: Packages/com.unity.ml-agents
+  artifactKey: Guid(ae48bdc75c5667e3bee0a55b49d87880) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Packages/com.unity.ml-agents using Guid(ae48bdc75c5667e3bee0a55b49d87880) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e087135f96acfdc10f0fd9d8f4a07b7f') in 0.000988 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 12.462944 seconds.
+  path: Packages/com.unity.ml-agents/Editor
+  artifactKey: Guid(e9de88a64ac5c4d2eb8955836199d61b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Packages/com.unity.ml-agents/Editor using Guid(e9de88a64ac5c4d2eb8955836199d61b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3e602be8d0ed4e22e3facb56ac2eb00') in 0.001961 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.050071 seconds.
+  path: Packages/com.unity.ml-agents/Editor/UnityColors.colors
+  artifactKey: Guid(b20b0226063034686a6cf92ade284285) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Packages/com.unity.ml-agents/Editor/UnityColors.colors using Guid(b20b0226063034686a6cf92ade284285) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f073a3c9fd0a7d47c207015b8a986ed3') in 0.046053 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 170.288491 seconds.
+  path: Packages/com.unity.ml-agents/Editor/AgentEditor.cs
+  artifactKey: Guid(c3b291e1cd0c64781861652b579d0ac1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Packages/com.unity.ml-agents/Editor/AgentEditor.cs using Guid(c3b291e1cd0c64781861652b579d0ac1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b94e26b6ea1b0e941bbb58c442856031') in 0.087023 seconds 
+Number of asset objects unloaded after import = 0
